@@ -160,7 +160,6 @@ namespace Test_Taste_Console_Application.Domain.Services
                 OutputString.PlanetId, OutputString.PlanetMoonAverageGravity
             };
 
-            Console.WriteLine(LoggerMessage.WritingData);
             ConsoleWriter.CreateHeader(columnLabels, columnSizes);
 
             foreach(Planet planet in planets)
